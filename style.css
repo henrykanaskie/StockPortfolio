@@ -1,0 +1,78 @@
+body {
+    margin: auto;
+    padding: 0px;
+  }
+
+.main{
+    border: solid black 2px;
+    border-radius: 10px;
+    height: 100vh;
+    width: 100vw;
+    background-color: beige;
+    display:flex;
+}
+.leftside{
+    border: solid black 2px;
+    border-radius: 10px;
+    height: 100vh;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+}
+
+.rightside{
+    border: solid black 2px;
+    border-radius: 10px;
+    height: 100vh;
+    width:68%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.userinfo{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: grey ;
+    opacity: .5;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 15%;
+}
+.list{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: grey ;
+    opacity: .5;
+    margin-top: 5%;
+    margin-bottom: 7vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 65vh;
+}
+.header{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: grey ;
+    opacity: .5;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height:10%;
+}
+
+.grid{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: grey ;
+    opacity: .5;
+    height: 65vh;
+    margin-bottom: 7vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5vh;
+}
