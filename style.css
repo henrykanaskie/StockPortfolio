@@ -2,7 +2,9 @@ body {
     margin: auto;
     padding: 0px;
   }
-
+body::-webkit-scrollbar {
+    display: none;
+  }
 .main{
     border: solid black 2px;
     border-radius: 10px;
@@ -46,12 +48,16 @@ body {
     border: solid black 2px;
     border-radius: 10px;
     background-color: grey ;
+    display: flex;
+    flex-direction: column;
     opacity: .5;
     margin-top: 5%;
     margin-bottom: 7vh;
     margin-left: 5%;
     margin-right: 5%;
     height: 65vh;
+    overflow: hidden;
+    overflow:scroll;
 }
 .header{
     border: solid black 2px;
@@ -76,3 +82,18 @@ body {
     margin-right: 5%;
     margin-top: 5vh;
 }
+.listitem{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: blue ;
+    opacity: .5;
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom:auto;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.list::-webkit-scrollbar {
+    display: none;
+  }
