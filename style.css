@@ -1,44 +1,48 @@
 body {
-    margin: auto;
-    padding: 0px;
-  }
+  margin: auto;
+  padding: 0px;
+}
 body::-webkit-scrollbar {
-    display: none;
-  }
-.main{
-    border-radius: 10px;
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(35, 35, 35);
-    display:flex;
+  display: none;
 }
-.leftside{
-    border-radius: 10px;
-    height: 100vh;
-    width: 32%;
-    display: flex;
-    flex-direction: column;
- 
+.main {
+  border-radius: 10px;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(35, 35, 35);
+  display: flex;
 }
-
-.rightside{
-    height: 100vh;
-    width:68%;
-    background-color: rgb(40, 40, 40);
-    display: flex;
-    flex-direction: column;
+.leftside {
+  border: solid white 2px;
+  border-radius: 10px;
+  height: 100vh;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
 }
 
-.userinfo{
-    border-radius: 10px;
-    background-color: rgb(60, 60, 60);
-    opacity: .5;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 15%;
+.rightside {
+  border: solid white 2px;
+  border-radius: 10px;
+  height: 100vh;
+  width: 68%;
+  background-color: rgb(40, 40, 40);
+  display: flex;
+  flex-direction: column;
 }
+
+.userinfo {
+  border: solid white 2px;
+  border-radius: 10px;
+  background-color: rgb(60, 60, 60);
+  opacity: 0.5;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 15%;
+}
+<<<<<<< HEAD
 .list{
     border-radius: 10px;
     background-color: rgb(60, 60, 60);
@@ -52,18 +56,36 @@ body::-webkit-scrollbar {
     height: 65vh;
     overflow: hidden;
     overflow:scroll;
+=======
+.list {
+  border: solid white 2px;
+  border-radius: 10px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.5;
+  margin-top: 5%;
+  margin-bottom: 7vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 65vh;
+  overflow: hidden;
+  overflow: scroll;
+>>>>>>> 92f29b28499600eb60a234a13794fc119c3c7a8a
 }
 
-.header{
-    background-color: rgb(60, 60, 60);
-    opacity: .5;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    height:10%;
+.header {
+  border: solid white 2px;
+  background-color: rgb(60, 60, 60);
+  opacity: 0.5;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 10%;
 }
 
+<<<<<<< HEAD
 .grid{
     border: solid black 2px;
     border-radius: 10px;
@@ -127,3 +149,33 @@ body::-webkit-scrollbar {
 .list::-webkit-scrollbar {
     display: none;
   }
+=======
+.grid {
+  border: solid white 2px;
+  border-radius: 10px;
+  background-color: grey;
+  opacity: 0.5;
+  height: 65vh;
+  margin-bottom: 7vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5vh;
+}
+
+.listitem {
+  border: solid white 2px;
+  border: solid black 2px;
+  border-radius: 10px;
+  background-color: blue;
+  opacity: 0.5;
+  height: 50px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: auto;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.list::-webkit-scrollbar {
+  display: none;
+}
+>>>>>>> 92f29b28499600eb60a234a13794fc119c3c7a8a
