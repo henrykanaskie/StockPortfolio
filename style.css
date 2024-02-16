@@ -4,37 +4,32 @@ body {
   }
 
 .main{
-    border: solid black 2px;
     border-radius: 10px;
     height: 100vh;
     width: 100vw;
-    background-color: beige;
+    background-color: rgb(35, 35, 35);
     display:flex;
 }
 .leftside{
-    border: solid black 2px;
     border-radius: 10px;
     height: 100vh;
     width: 32%;
     display: flex;
     flex-direction: column;
-    background-color: azure;
+ 
 }
 
 .rightside{
-    border: solid black 2px;
-    border-radius: 10px;
     height: 100vh;
     width:68%;
-    background-color: grey;
+    background-color: rgb(40, 40, 40);
     display: flex;
     flex-direction: column;
 }
 
 .userinfo{
-    border: solid black 2px;
     border-radius: 10px;
-    background-color: grey ;
+    background-color: rgb(60, 60, 60);
     opacity: .5;
     margin-top: 10%;
     margin-bottom: 5%;
@@ -43,9 +38,8 @@ body {
     height: 15%;
 }
 .list{
-    border: solid black 2px;
     border-radius: 10px;
-    background-color: grey ;
+    background-color: rgb(60, 60, 60);
     opacity: .5;
     margin-top: 5%;
     margin-bottom: 7vh;
@@ -53,10 +47,9 @@ body {
     margin-right: 5%;
     height: 65vh;
 }
+
 .header{
-    border: solid black 2px;
-    border-radius: 10px;
-    background-color: grey ;
+    background-color: rgb(60, 60, 60);
     opacity: .5;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -76,3 +69,40 @@ body {
     margin-right: 5%;
     margin-top: 5vh;
 }
+
+/* ----------------------------------------------------------
+    Individual Stock Right side style
+---------------------------------------------------------- */
+.stockinfo{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: grey ;
+    opacity: .5;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4vh;
+    height:10%;
+}
+
+.stockbox{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: grey;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-bottom: 7vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.graph{
+    background-color: rgb(0, 0, 0);
+    height: 85%;
+    width: 95%;
+    margin-bottom: 2.5%;
+    margin: 2.5%;
+    margin-top: 10%;
+}
+/*--------------------------------------------------------*/
